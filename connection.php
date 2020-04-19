@@ -2,16 +2,6 @@
 session_start();
 ?>
 
-
-<!-- HEAD -->
-<?php require __DIR__ . "/../header.php"; ?>
- 
-<!-- Traitement formulaire -->
-<?php require __DIR__ . "/../traitement_formulaire.php"; ?>
-
-
-
-
 <div class="login">
     <link rel="stylesheet" href="css/style2.css">
    
@@ -34,5 +24,3 @@ session_start();
     </form>
   </div>
   
-
-<?php require __DIR__ . "/../footer.php"; ?>
